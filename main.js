@@ -13,5 +13,4 @@ var oldq = $("#clay").offset();
 $("#clay").animate({top: newq[0], left: newq[1]}, 2000,"linear",function(){
 animateDiv();});
 }
-
 animateDiv();
