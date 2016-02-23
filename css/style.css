@@ -1,0 +1,244 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:16px;
+  width: 100%;
+  height:100%;
+  margin: 0 auto;
+  position:relative;
+  text-align: center;
+}
+
+.logo, .DAV-logo{
+  text-align: center;
+  display:block;
+}
+
+#logo{
+  width:auto;
+  height:auto;
+  max-width:700px;
+  max-height:500px;
+}
+
+#DAV-logo{
+  width: auto;
+  height:auto;
+  max-width: 250px;
+  max-height: 100px;
+}
+
+button{
+  padding:5px;
+  margin:10px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  width: 240px;
+  height:80px;
+}
+
+a{
+  color:black;
+}
+
+#links{
+  margin: 20px;
+}
+
+#lbds{
+  width:240px;
+  height:65px;
+  padding:5px;
+  margin:10px;
+}
+
+button a{
+  text-decoration: none;
+}
+
+h2{
+  text-align: center;
+  color:#b8b9bc;
+  font-size:25px;
+}
+
+h1{
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+}
+
+h3{
+  font-size: 20px;
+  margin:10px;
+}
+
+span{
+  display: block;
+  margin: 15px;
+}
+
+.main{
+  float:left;
+  width: 70%;
+  height: auto;
+  margin: 20px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.side{
+  float:right;
+  width: 23%;
+  height:auto;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius:15px;
+  text-align: center;
+}
+
+#title-bar, #maintitle{
+  background-image:url("../images/checkered.png");
+  background-repeat: repeat-x;
+  border: 1px solid black;
+  text-align: center;
+  height: 100px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+p{
+  margin:10px;
+  padding:5px;
+  color: black;
+}
+
+footer{
+  font-size:15px;
+  margin:10px 0px 5px 0px;
+  color: black;
+  text-align: center;
+  clear:both;
+}
+
+.transparentbox{
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    border-radius: 15px;
+    height:60px;
+}
+
+#clay{
+  position: fixed;
+  width: 150px;
+  height:150px;
+  float:left;
+}
+
+iframe{
+  width:780px;
+  height:690px;
+}
+
+#RSVP{
+  margin: 0 auto;
+  max-width: 780px;
+  text-align: center;
+}
+/*Media Queries*/
+
+@media only screen and (max-width: 375px){
+  body{
+    font-size:12px;
+  }
+  .main{
+    width: 100%;
+    height:auto;
+    float:none;
+    margin:0 auto;
+  }
+  .side{
+    float:none;
+    width: 100%;
+    height:auto;
+    margin: 10px auto;
+  }
+  iframe{
+    max-width: 320px;
+  }
+  h2{
+    font-size: 14px;
+  }
+  #RSVP{
+    width: 100%;
+    margin: 5px auto;
+  }
+  #logo{
+    width:50%;
+    height:auto;
+  }
+  .button{
+    clear:both;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  body{
+    font-size: 14px;
+  }
+  h2{
+    font-size: 16px;
+  }
+  .main{
+    width: 100%;
+    height: auto;
+    float:none;
+    margin:0 auto;
+  }
+  .side{
+    float:none;
+    width: 100%;
+    height:auto;
+    margin: 15px auto;
+  }
+  iframe{
+    max-width: 740px;
+  }
+  #RSVP{
+    width: 100%;
+    margin: 10px auto;
+  }
+  .button{
+    clear:both;
+    margin:0 auto;
+  }
+}
+
+@media only screen and (max-width:1280px){
+  .main{
+    width: 100%;
+    height: auto;
+    float:none;
+    margin:0 auto;
+  }
+  .side{
+    float:none;
+    width: 100%;
+    height:auto;
+    margin: 20px auto;
+  }
+  iframe{
+    max-width: 1200px;
+  }
+  #RSVP{
+    width: 100%;
+    margin: 15px auto;
+  }
+  button{
+    clear:both;
+  }
+}
