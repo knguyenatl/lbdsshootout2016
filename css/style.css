@@ -8,10 +8,11 @@ body{
   text-align: center;
 }
 
-.logo, .DAV-logo{
+/*.logo, .DAV-logo{
   text-align: center;
   display:block;
 }
+*/
 
 #logo{
   width:auto;
@@ -19,14 +20,12 @@ body{
   max-width:700px;
   max-height:500px;
 }
-
 #DAV-logo{
-  width: auto;
+  width:auto;
   height:auto;
   max-width: 250px;
   max-height: 100px;
 }
-
 button{
   padding:5px;
   margin:10px;
@@ -36,48 +35,36 @@ button{
   width: 240px;
   height:80px;
 }
-
-a{
-  color:black;
-}
-
 #links{
   margin: 20px;
 }
-
 #lbds{
   width:240px;
   height:65px;
   padding:5px;
   margin:10px;
 }
-
 button a{
   text-decoration: none;
 }
-
 h2{
   text-align: center;
   color:#b8b9bc;
   font-size:25px;
 }
-
 h1{
   text-align: center;
   margin: 10px;
   font-size: 30px;
 }
-
 h3{
   font-size: 20px;
   margin:10px;
 }
-
 span{
   display: block;
   margin: 15px;
 }
-
 .main{
   float:left;
   width: 70%;
@@ -87,7 +74,6 @@ span{
   text-align: center;
   border-radius: 15px;
 }
-
 .side{
   float:right;
   width: 23%;
@@ -97,7 +83,6 @@ span{
   border-radius:15px;
   text-align: center;
 }
-
 #title-bar, #maintitle{
   background-image:url("../images/checkered.png");
   background-repeat: repeat-x;
@@ -107,13 +92,10 @@ span{
   margin: 5px;
   border-radius: 15px;
 }
-
 p{
   margin:10px;
   padding:5px;
-  color: black;
 }
-
 footer{
   font-size:15px;
   margin:10px 0px 5px 0px;
@@ -121,7 +103,6 @@ footer{
   text-align: center;
   clear:both;
 }
-
 .transparentbox{
     margin: 20px;
     background-color: #ffffff;
@@ -130,20 +111,19 @@ footer{
     border-radius: 15px;
     height:60px;
 }
-
 #clay{
   position: fixed;
   width: 150px;
   height:150px;
   float:left;
 }
-
 #RSVP{
   margin: 0 auto;
   text-align: center;
 }
-/*Media Queries*/
 
+
+/*Media Queries*/
 @media only screen and (max-width: 375px){
   body{
     font-size:12px;
