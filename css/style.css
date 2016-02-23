@@ -164,11 +164,6 @@ footer{
   h2{
     font-size: 14px;
   }
-  #RSVP{
-    max-width:350px ;
-    margin: 5px auto;
-    height:auto;
-  }
   #logo{
     width:50%;
     height:auto;
@@ -198,11 +193,6 @@ footer{
     height:auto;
     margin: 15px auto;
   }
-  #RSVP{
-    max-width: 740px;;
-    margin: 10px auto;
-    height:auto;
-  }
   .button{
     clear:both;
     margin:0 auto;
@@ -221,11 +211,6 @@ footer{
     width: 100%;
     height:auto;
     margin: 20px auto;
-  }
-  #RSVP{
-    max-width: 1200px;
-    margin: 15px auto;
-    height:auto;
   }
   button{
     clear:both;
