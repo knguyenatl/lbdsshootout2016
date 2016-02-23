@@ -138,11 +138,6 @@ footer{
   float:left;
 }
 
-iframe{
-  width:780px;
-  height:690px;
-}
-
 #RSVP{
   margin: 0 auto;
   max-width: 780px;
@@ -167,7 +162,7 @@ iframe{
     margin: 10px auto;
   }
   iframe{
-    max-width: 320px;
+    max-width: 310px;
   }
   h2{
     font-size: 14px;
@@ -206,7 +201,7 @@ iframe{
     margin: 15px auto;
   }
   iframe{
-    max-width: 740px;
+    max-width: 730px;
   }
   #RSVP{
     max-width: 740px;;
@@ -230,9 +225,6 @@ iframe{
     width: 100%;
     height:auto;
     margin: 20px auto;
-  }
-  iframe{
-    max-width: 1200px;
   }
   #RSVP{
     max-width: 1200px;
