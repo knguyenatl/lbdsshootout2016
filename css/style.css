@@ -140,7 +140,6 @@ footer{
 
 #RSVP{
   margin: 0 auto;
-  max-width: 780px;
   text-align: center;
 }
 /*Media Queries*/
@@ -164,7 +163,7 @@ footer{
   h2{
     font-size: 14px;
   }
-  #logo{
+  #logo, #DAV-logo{
     width:50%;
     height:auto;
   }
