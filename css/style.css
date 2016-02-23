@@ -173,7 +173,7 @@ iframe{
     font-size: 14px;
   }
   #RSVP{
-    width: 100%;
+    max-width:350px ;
     margin: 5px auto;
   }
   #logo{
@@ -209,7 +209,7 @@ iframe{
     max-width: 740px;
   }
   #RSVP{
-    width: 100%;
+    max-width: 740px;;
     margin: 10px auto;
   }
   .button{
@@ -235,7 +235,7 @@ iframe{
     max-width: 1200px;
   }
   #RSVP{
-    width: 100%;
+    max-width: 1200px;
     margin: 15px auto;
   }
   button{
