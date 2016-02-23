@@ -161,15 +161,13 @@ footer{
     height:auto;
     margin: 10px auto;
   }
-  iframe{
-    max-width: 310px;
-  }
   h2{
     font-size: 14px;
   }
   #RSVP{
     max-width:350px ;
     margin: 5px auto;
+    height:auto;
   }
   #logo{
     width:50%;
@@ -200,12 +198,10 @@ footer{
     height:auto;
     margin: 15px auto;
   }
-  iframe{
-    max-width: 730px;
-  }
   #RSVP{
     max-width: 740px;;
     margin: 10px auto;
+    height:auto;
   }
   .button{
     clear:both;
@@ -229,6 +225,7 @@ footer{
   #RSVP{
     max-width: 1200px;
     margin: 15px auto;
+    height:auto;
   }
   button{
     clear:both;
