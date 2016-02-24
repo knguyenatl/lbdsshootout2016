@@ -84,7 +84,7 @@ span{
   text-align: center;
 }
 #title-bar, #maintitle{
-  background-image:url("../images/checkered.png");
+  background-image:url("../images/drops.png");
   background-repeat: repeat-x;
   background-position: left center;
   border: 1px solid black;
