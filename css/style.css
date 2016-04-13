@@ -125,6 +125,9 @@ footer{
 button a{
   color:black;
 }
+#kn{
+  font-size: 12px;
+}
 
 /*Media Queries*/
 @media only screen and (max-width: 375px){
