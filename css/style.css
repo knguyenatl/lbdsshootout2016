@@ -8,12 +8,6 @@ body{
   text-align: center;
 }
 
-/*.logo, .DAV-logo{
-  text-align: center;
-  display:block;
-}
-*/
-
 #logo{
   width:auto;
   height:auto;
@@ -54,7 +48,7 @@ h2{
 }
 h1{
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   font-size: 30px;
 }
 h3{
